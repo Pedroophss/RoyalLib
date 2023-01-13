@@ -11,8 +11,8 @@ using RoyalLib.Infra.EntityFramework;
 namespace RoyalLib.Infra.Migrations
 {
     [DbContext(typeof(RoyalLibContext))]
-    [Migration("20230112004443_books_creation")]
-    partial class books_creation
+    [Migration("20230113225309_books")]
+    partial class books
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

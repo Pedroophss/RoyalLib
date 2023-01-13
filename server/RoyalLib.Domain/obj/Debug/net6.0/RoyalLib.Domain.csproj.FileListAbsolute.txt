@@ -10,3 +10,15 @@ C:\Users\Tintim\Code\torc\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domai
 C:\Users\Tintim\Code\torc\server\RoyalLib.Domain\obj\Debug\net6.0\refint\RoyalLib.Domain.dll
 C:\Users\Tintim\Code\torc\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.pdb
 C:\Users\Tintim\Code\torc\server\RoyalLib.Domain\obj\Debug\net6.0\ref\RoyalLib.Domain.dll
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\bin\Debug\net6.0\RoyalLib.Domain.deps.json
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\bin\Debug\net6.0\RoyalLib.Domain.dll
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\bin\Debug\net6.0\RoyalLib.Domain.pdb
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.csproj.AssemblyReference.cache
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.AssemblyInfoInputs.cache
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.AssemblyInfo.cs
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.dll
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\refint\RoyalLib.Domain.dll
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\RoyalLib.Domain.pdb
+C:\Users\Tintim\Code\royal_lib\server\RoyalLib.Domain\obj\Debug\net6.0\ref\RoyalLib.Domain.dll

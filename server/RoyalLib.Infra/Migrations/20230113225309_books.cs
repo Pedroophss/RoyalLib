@@ -4,7 +4,7 @@
 
 namespace RoyalLib.Infra.Migrations
 {
-    public partial class books_creation : Migration
+    public partial class books : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

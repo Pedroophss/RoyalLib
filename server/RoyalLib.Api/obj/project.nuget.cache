@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6jHTmaCzMIHRcnufTuMvW3eFGUCkD9F49C3ta77aa791r0jGyi+j76VIe0TFdpseh2VyMhdALl5nnSzmJvEjIA==",
+  "dgSpecHash": "lXDVBQTrbjdKhlZf68SCyoLhx00BnRzZcJWzKdPo4MIcLOXrz6qRgUM7MfFkV9I/DmkVMh3ZZIQ+/7pY2lsxWg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Api\\RoyalLib.Api.csproj",
+  "projectFilePath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Api\\RoyalLib.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tintim\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Tintim\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

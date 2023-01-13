@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Domain\\RoyalLib.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Domain\\RoyalLib.Domain.csproj",
       "projectName": "RoyalLib.Domain",
-      "projectPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Domain\\RoyalLib.Domain.csproj",
+      "projectPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Domain\\RoyalLib.Domain.csproj",
       "packagesPath": "C:\\Users\\Tintim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tintim\\AppData\\Roaming\\NuGet\\NuGet.Config",

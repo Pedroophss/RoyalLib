@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GpU0r2NhWyOa7w9hbHIXXagTtm271aQOfpEs0Npj2FQHWnb1F1o1xamCay8bzoTj35jXPKmHD5S+JBVJXzFb/w==",
+  "dgSpecHash": "hltN74xq9JgQswEIoRoFvt3RgxIVD/NeEITh94DuLk2+IYkdYKurEeBYlT4iU/NkMPU0CIwN2g1ZvahIK0smVw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
+  "projectFilePath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tintim\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\Tintim\\.nuget\\packages\\autofixture.automoq\\4.17.0\\autofixture.automoq.4.17.0.nupkg.sha512",

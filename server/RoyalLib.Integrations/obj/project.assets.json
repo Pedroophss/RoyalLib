@@ -9614,11 +9614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
+      "projectUniqueName": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
       "projectName": "RoyalLib.Integrations",
-      "projectPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
+      "projectPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Integrations\\RoyalLib.Integrations.csproj",
       "packagesPath": "C:\\Users\\Tintim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Integrations\\obj\\",
+      "outputPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Integrations\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tintim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9635,11 +9635,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Api\\RoyalLib.Api.csproj": {
-              "projectPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Api\\RoyalLib.Api.csproj"
+            "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Api\\RoyalLib.Api.csproj": {
+              "projectPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Api\\RoyalLib.Api.csproj"
             },
-            "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Tests\\RoyalLib.Units.csproj": {
-              "projectPath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Tests\\RoyalLib.Units.csproj"
+            "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Tests\\RoyalLib.Units.csproj": {
+              "projectPath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Tests\\RoyalLib.Units.csproj"
             }
           }
         }

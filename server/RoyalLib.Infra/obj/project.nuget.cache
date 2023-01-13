@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ycgqy2PrjyPEncLv5HlW7kYEUxhsUpVPyulVsEnHBGMhqY3qUQqFp1Tte1hhXBXb3l/Uah2a4NDvCBhG0NifZw==",
+  "dgSpecHash": "kuS34jgje86wF7sc7jj85wMc+KpTknOeC4eTS3n9LKfFcE53Hj9rxG6DtatgzGnrtIGCBca5Y8Z0xb9Go/eo+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tintim\\Code\\torc\\server\\RoyalLib.Infra\\RoyalLib.Infra.csproj",
+  "projectFilePath": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Infra\\RoyalLib.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tintim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tintim\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
