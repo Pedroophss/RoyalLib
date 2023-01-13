@@ -118,8 +118,9 @@ dist
 [Dd]ebug/
 [Rr]elease/
 x64/
-[Bb]in/
-[Oo]bj/
+bin
+obj
+packages
 
 # MSTest test Results
 [Tt]est[Rr]esult*/

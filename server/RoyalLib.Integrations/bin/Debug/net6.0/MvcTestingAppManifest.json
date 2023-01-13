@@ -1,6 +1,0 @@
-{
-  "RoyalLib.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Api",
-  "RoyalLib.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Domain",
-  "RoyalLib.Infra, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Infra",
-  "RoyalLib.Units, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\Tintim\\Code\\royal_lib\\server\\RoyalLib.Tests"
-}
