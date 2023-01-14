@@ -76,7 +76,7 @@ export default function Home() {
                     >
                         <MenuItem value={'author'}>Author</MenuItem>
                         <MenuItem value={'isbn'}>ISBN</MenuItem>
-                        <MenuItem value={'own/love/want'}>own/love/want</MenuItem>
+                        <MenuItem value={'title'}>own/love/want</MenuItem>
                     </Select>
                 </FormControl>
                 <TextField label="Value" value={textValue} onChange={handleChangeText} />

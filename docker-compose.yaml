@@ -15,8 +15,8 @@ services:
       context: ./
       dockerfile: server.Dockerfile
     ports: 
-      - "49151:80"
-      - "49150:443"
+      - "5028:80"
+      - "7028:443"
     depends_on: 
       - database
   web:

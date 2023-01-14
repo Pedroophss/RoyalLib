@@ -6,16 +6,15 @@ public class Api : IAppSetup, IBuilderSetup
 {
     public void ConfigureApp(WebApplication app)
     {
+        app.UseCors("all");
         app.UseHttpsRedirection();
-
-        app.UseCors("AllowAll");
     }
 
     public void ConfigureBuilder(WebApplicationBuilder builder)
     {
         builder.Services.AddCors(options =>
         {
-            options.AddPolicy("AllowAll",
+            options.AddPolicy("all",
                 builder =>
                 {
                     builder
