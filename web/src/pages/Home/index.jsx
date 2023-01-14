@@ -29,9 +29,9 @@ export default function Home() {
 
     const handleChangeText = (value) => {
         let text = value.target.value ?? textDefaultValue;
-        
+
         if (selectValue == 'isbn') {
-            text = text.replace(/\D/g,'');
+            text = text.replace(/\D/g, '');
         }
 
         setTextValue(text);
@@ -39,26 +39,25 @@ export default function Home() {
 
     const handleQueryBooks = async (pageNumber = 0) => {
         setLoading(true);
-        
+
         try {
-            const operationResult = await getBooks({ 
-                searchBy: selectValue, 
+            const operationResult = await getBooks({
+                searchBy: selectValue,
                 value: textValue,
                 pageSize: 5,
-                pageNumber 
+                pageNumber
             });
 
             setData({
                 totalCount: operationResult.total,
                 items: operationResult.items
             });
-        } catch(err) {
+        } catch (err) {
             toast.error(err.message);
         } finally {
             setLoading(false);
         }
     }
-
     return (
         <Container>
             <S.HomeTitleContainer>
@@ -80,24 +79,24 @@ export default function Home() {
                     </Select>
                 </FormControl>
                 <TextField label="Value" value={textValue} onChange={handleChangeText} />
-                <Button disabled={!textValue} variant="contained" onClick={() => handleQueryBooks(0)} >Search</Button>
+                <Button disabled={!textValue} variant="contained" onClick={() => handleQueryBooks(0)} data-testid='submit-button'>Search</Button>
             </S.SearchContainer>
             {
                 data.items?.length > 0 && (
                     <S.DataGridContainer>
-                    <DataGrid
-                        rows={data.items || []}
-                        columns={gridColumsn}
-                        rowsPerPageOptions={[5]}
-                        pageSize={5}
-                        onPageChange={handleQueryBooks}
-                        rowCount={data.totalCount}
-                        loading={loading}
-                        paginationMode="server"
-                        disableColumnFilter
-                        disableSelectionOnClick
-                        disableColumnMenu
-                    />
+                        <DataGrid
+                            rows={data.items || []}
+                            columns={gridColumsn}
+                            rowsPerPageOptions={[5]}
+                            pageSize={5}
+                            onPageChange={handleQueryBooks}
+                            rowCount={data.totalCount}
+                            loading={loading}
+                            paginationMode="server"
+                            disableColumnFilter
+                            disableSelectionOnClick
+                            disableColumnMenu
+                        />
                     </S.DataGridContainer>
                 )
             }
