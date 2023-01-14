@@ -11,37 +11,39 @@ Hello! Welcome to the **Royal Library**
 4. Understanding the **Web**
 
 
-## The project Royal Library
+## The Project Royal Library
 
 Royal Library was a project conceived to bring books to anyone in the world free of charge! 
-Besides this honored task, pass in this assessment would be great too :)
+Besides this honored task, passing this assessment would be great too :)
 
 
 ## Setup and Running
 
-The [web](#web), [database](#database) and the [server](#server) sections are for you work on a dev environment the section [compose](#compose-everything-together) it's to just run the project
+The [web](#web), [database](#database) and the [server](#server) sections are for you to be able to work on a development environment. The section [compose](#compose-everything-together) it's to just run the project
+
+**OBS:** The compose containers uses the same doors as the development ones, so pay attention to choose either one
 
 ### Web
 
-1. Check if you have node installed, running: `node -v`. Should return something like v00.00.00, if you did not received this [install node](https://nodejs.org/en/download/)
+1. Check if you have node installed (version must be greater than v14), running: `node -v`. Should return something like v00.00.00, if you did not received this [install node](https://nodejs.org/en/download/)
 2. Check if you have yarn installed, running: `yarn -v`. Should return something similar to the node command, if not, [install yarn](https://classic.yarnpkg.com/en/docs/getting-started)
-3. Go to the folder web
+3. Go to the web folder
 4. Run `yarn`
 5. Run `yarn dev`
 6. Open the [Royal Library](http://localhost:5173/) in your browser
 
-&emsp; **OBS:** The page will not work! because you need the server  and the database running to everything works as expected.
+&emsp; **OBS:** **The page will not work!** because you need the server and the database running to everything works as expected.
 
 ---
 
 ### Database
 
-This project is using the Microsoft SQL Server.
-You can have installed an entire server on your machin or running one using docker. 
+This project uses the Microsoft SQL Server.
+You can install the MSSQL entire server on your machine or run it using docker. 
 
 To run on docker:
 
-Check if you have docker installed running: `docker -v` should returning something like:
+Check if you have docker installed running: `docker -v` should return something like:
 
 > Docker version 20.10.21, build baeda1f
 
@@ -55,13 +57,13 @@ Your connection string will be:
 
 > Server=127.0.0.1,1433;Database=Master;User Id=SA;Password=yourStrong(!)Password
 
-**OBS**: This container took time to start completelly, so grab some coffe before to continue. 
+**OBS**: This container takes time to start completely, so grab some coffee before continuing. 
 
 ---
 
-### Server
+### API Server
 
-Check if you have the .Net installed running `dotnet --info` should returning something like:
+Check if you have the .Net installed running `dotnet --info` should return something like:
 
 
 ```
@@ -101,7 +103,7 @@ Learn about .NET Runtimes and SDKs:
   https://aka.ms/dotnet/runtimes-sdk-info
 ```
 
-**OBS:** You **must** to have version 6 installed. Even with the version 7, you still need to have the 6 one. (I know it's weird...)
+**OBS:** You **must** to have version 6 installed. Even with version 7, you still need to have the 6. (I know it's weird...)
 
 If need, install [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0)
 
@@ -117,6 +119,8 @@ If need, install [.Net 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 2. Go to the root
 3. Run the command `docker-compose up`
 4. Open the [Royal Library](http://localhost:5173/) in your browser
+
+**OBS** Sometimes 
 
 ## Understanding the Server
 
